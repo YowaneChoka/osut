@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OSUT</title>
 </head>
+
 <body>
-    <h2> Computer :<span id="computer-choice"></span></h2>
-    <h2> Your Turn:<span id="my-choice"></span></h2>
-    <h2> Result:<span id="result"></span></h2>
-    
-    <button class="button" id="rock">rock</button>
-    <button class="button" id="paper">paper</button>
-    <button class="button" id="scissors">scissors</button>
-    
+    <link rel="stylesheet" href="./index.css" />
+
+    <div id="game-div">
+        <h2><span class="game-text" id="computer-choice">Computer :</span></h2>
+        <h2><span class="game-text" id="my-choice">Your Turn:</span></h2>
+        <h2><span class="game-text" id="result">Result:</span></h2>
+
+        <button class="game-btn" id="rock-btn">ROCK</button>
+        <button class="game-btn" id="paper-btn">PAPER</button>
+        <button class="game-btn" id="scissors-btn">SCISSORS</button>
+    </div>
+
     <script src="./osut.js" charset="utf-8"></script>
 </body>
+
 </html>

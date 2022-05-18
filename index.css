@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(212, 212, 22);
+}
+
+#game-div {
+    border: 3px solid;
+    border-radius: 30px;
+    padding: 10px;
+    background: whitesmoke;
+    text-align: center;
+}
+
+.game-btn {
+    /* color:pink; */
+    line-height: 30px;
+    width: 30%;
+    background-color: rgb(132, 192, 132);
+    margin: 10px;
+}
+
+#computer-choice {
+    color: red;
+}
+
+#my-choice {
+    color: blue;
+}
+
+#result {
+    color: green;
+}
