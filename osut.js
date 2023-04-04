@@ -33,7 +33,7 @@ function computerTurn() {
 
 function checkWin() {
 
-    console.log('checking');
+    //console.log('checking');
 
     if (player == computer) {
         return "Draw!";
